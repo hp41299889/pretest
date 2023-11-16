@@ -36,3 +36,15 @@ docker run -p 3000:3000 hui-asiayo
 
 - Make a HTTP GET Request to http://localhost:3000/api/exchange with query (source, target, amount)
 - just [click](http://localhost:3000/api/exchange?source=USD&target=JPY&amount=$1,525)
+
+### Run test
+
+```bash
+pnpm test
+```
+
+or use npm
+
+```bash
+npm run test
+```
